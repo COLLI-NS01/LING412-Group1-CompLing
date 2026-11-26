@@ -1,0 +1,12 @@
+ERROR LOG (genuine failures from the run above)
+===============================================
+
+FAIL: mtoto[CL1]  ->  expected 'watoto', got 'mtoto'
+FAIL: mgeni[CL1]  ->  expected 'wageni', got 'mgeni'
+FAIL: mwalimu[CL1]  ->  expected 'waalimu', got 'mwalimu'
+FAIL: mhandisi[CL1]  ->  expected 'wahandisi', got 'mhandisi'
+FAIL: mke[CL1]  ->  expected 'wake', got 'mke'
+FAIL: mche[CL3]  ->  expected 'miche', got 'mche'
+FAIL: mzizi[CL3]  ->  expected 'mizizi', got 'mzizi'
+FAIL: mji[CL3]  ->  expected 'miji', got 'mji'
+FAIL: mguu[CL3]  ->  expected 'miguu', got 'mguu'

@@ -1,0 +1,21 @@
+TEST RESULTS (15 held-out forms)
+================================
+Input         | Tag    | Expected     | FST Output   | Status
+---------------------------------------------------------------------------
+mtoto         | [CL1]  | watoto       | mtoto        | FAIL
+mgeni         | [CL1]  | wageni       | mgeni        | FAIL
+mwalimu       | [CL1]  | waalimu      | mwalimu      | FAIL
+mhandisi      | [CL1]  | wahandisi    | mhandisi     | FAIL
+mke           | [CL1]  | wake         | mke          | FAIL
+mume          | [CL1]  | waume        | waume        | PASS
+mche          | [CL3]  | miche        | mche         | FAIL
+mzizi         | [CL3]  | mizizi       | mzizi        | FAIL
+mji           | [CL3]  | miji         | mji          | FAIL
+mguu          | [CL3]  | miguu        | mguu         | FAIL
+kisu          | [CL7]  | visu         | visu         | PASS
+kikapu        | [CL7]  | vikapu       | vikapu       | PASS
+chakula       | [CL7]  | vyakula      | vyakula      | PASS
+kitabu        | [CL7]  | vitabu       | vitabu       | PASS
+mbwa          | [CL9]  | mbwa         | mbwa         | PASS
+
+SUMMARY: 6 PASS / 9 FAIL

@@ -1,0 +1,16 @@
+Input	Tag	Expected_Plural
+mtoto	[CL1]	watoto
+mgeni	[CL1]	wageni
+mwalimu	[CL1]	waalimu
+mhandisi	[CL1]	wahandisi
+mke	[CL1]	wake
+mume	[CL1]	waume
+mche	[CL3]	miche
+mzizi	[CL3]	mizizi
+mji	[CL3]	miji
+mguu	[CL3]	miguu
+kisu	[CL7]	visu
+kikapu	[CL7]	vikapu
+chakula	[CL7]	vyakula
+kitabu	[CL7]	vitabu
+mbwa	[CL9]	mbwa

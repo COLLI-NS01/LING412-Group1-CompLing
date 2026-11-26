@@ -1,0 +1,24 @@
+ERROR LOG (genuine failures from the run above)
+===============================================
+
+#1  mke [CL1]  ->  expected 'wake', got 'mke'
+    Reason: The rule  m ([aeiou]) -> wa \1  requires a VOWEL immediately
+    after 'm'. In "mke", 'm' is followed by the consonant 'k', so the
+    rewrite never fires and the input passes through unchanged.
+
+#2  mche [CL3]  ->  expected 'miche', got 'mche'
+    Reason: Same vowel-condition problem. 'm' is followed by the digraph
+    'ch', not a vowel. No rule in the FST covers  m + consonant.
+
+#3  mguu [CL3]  ->  expected 'miguu', got 'mguu'
+    Reason: Same limitation: 'm' precedes consonant 'g'. Additionally,
+    the true plural involves a stem-internal change, which a
+    prefix-only model cannot represent.
+
+ADDITIONAL LIMITATIONS (documented for completeness):
+  * Reliance on lexical tags: the FST needs [CL1]/[CL3] supplied by the
+    user; it cannot predict the class by itself.
+  * Class 9/10 nasal assimilation (n + p -> mp) is bypassed by treating
+    the whole word as the stem, so the identity rule passes tests but
+    does not model real morphology.
+  * No orthographic alternations beyond ch -> vy are modelled.

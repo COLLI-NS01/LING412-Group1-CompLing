@@ -1,0 +1,18 @@
+SWAHILI NOUN-CLASS FST — DESCRIPTION OF RULES
+=============================================
+
+Four Swahili noun classes are modelled with a finite-state transducer.
+Swahili groups nouns into paired classes (singular/plural) marked by
+prefixes.
+
+Class Pair | Semantic Group   | Singular Prefix | Plural Prefix | Rule
+-----------+------------------+-----------------+---------------+-------------------
+1/2        | Humans           | m- / mw-        | wa-           | m(V) -> wa(V)
+3/4        | Trees, objects   | m- / mw-        | mi-           | m(V) -> mi(V)
+7/8        | Objects, tools   | ki- / ch-       | vi- / vy-     | ki->vi ; ch->vy
+9/10       | Animals, loans   | n- / (empty)    | identical     | identity (no change)
+
+Disambiguation:
+  Classes 1 and 3 both begin with m-. The input therefore carries a lexical
+  tag ([CL1], [CL3]) to select the correct rule. This is a documented
+  simplification of the model.

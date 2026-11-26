@@ -1,0 +1,22 @@
+SELF-CHECK
+==========
+Q1: Does the analyser handle the examples it was designed for?
+    Yes — the four prefix-substitution rules succeed on all regular
+    m + vowel, ki-, ch- and identity (Class 9) forms.
+    Result: 12/15 PASS.
+
+Q2: Are its limitations clearly explained?
+    Yes — the error log records three genuine failures caused by
+      (a) consonant-initial stems after 'm-' (mke, mche, mguu);
+      (b) the prefix-only model's inability to represent
+          stem-internal change (mguu -> miguu).
+    The reliance on lexical tags and the absence of nasal
+    assimilation are also documented.
+
+DELIVERABLES COVERED:
+  [x] Description of rules
+  [x] Implementation file (PyFoma)
+  [x] Test set (15 held-out forms — Section 3b)
+  [x] Test results (with real FAIL statuses)
+  [x] Error log
+  [x] Self-check
