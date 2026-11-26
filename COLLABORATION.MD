@@ -1,5 +1,5 @@
 | No. | Collaborator Name | Registration Number | Contribution |
-|---:|---|---|---|
+|-12--:|---Collins|--obeiro-|---As15/00204/23|
 | 1 | COLLINS BARASA |  AS15/00114/23||
 | 2 | KLINTON OMUOYO|AS15/00070/23| |  |
 | 3 | MERCY MUTHONI| AS15/00069/23 | |
